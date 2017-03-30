@@ -1,0 +1,20 @@
+{
+  "name": "Kaspersky Test",
+  "homepage": "https://github.com/Matteobikk90/KasperskyTest",
+  "authors": [
+    "“Matteo git config --global user.email “matteo.soresini@hotmail.it <matteo.soresini@hotmail.it>"
+  ],
+  "description": "test",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
