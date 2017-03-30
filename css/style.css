@@ -6,23 +6,40 @@
 }
 
 header {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header-text {
+  font-size: 2em;
+  margin-top: 4px;
+  color: #007360;
+}
+/*
+header {
     height: 95px;
     z-index: 9;
-    padding: 20px;
-    text-align: center;
-    margin: 0 auto;
-    max-width: 1000px;
+    padding-top: 20px;
     width: 100%;
 }
 
-header .logo {
+.logo {
   float: left;
+  width: 200px;
+  height: 60px;
+}
+
+.header-text {
+  font-size: 33px;
+}*/
+/*
+.logo {
   width: 200px;
   height: 60px;
   z-index: 10;
 }
-
-header div span p {
+/*
+.header-text {
     font-size: 30px;
     font-family: "MuseoSans";
     color: rgb(0, 115, 96);
@@ -30,12 +47,9 @@ header div span p {
     padding: 11px;
 }
 
-/*.main-background {
-  background-image: url("shutterstock_200885033.png");
+.main-background {
+  background-image: url("images/main-background.png");
   opacity: 0.969;
-  position: absolute;
-  left: 146px;
-  top: 90px;
   width: 1017px;
   height: 478px;
   z-index: 5;
