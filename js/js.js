@@ -1,1 +1,1 @@
-alert("Kaspersky Test");
+// alert("Kaspersky Test");
