@@ -42,6 +42,23 @@ section {
     margin-top: 12%;
 }
 
+.PROTEZIONE_AVANZATA_PER_I_PC {
+  font-size: 13.308px;
+  font-family: "Arial";
+  color: rgb(60, 60, 60);
+  font-weight: bold;
+  line-height: 4.509;
+  text-align: left;
+  -moz-transform: matrix( 1.35259608668298,0,0,1.35259608668298,0,0);
+  -webkit-transform: matrix( 1.35259608668298,0,0,1.35259608668298,0,0);
+  -ms-transform: matrix( 1.35259608668298,0,0,1.35259608668298,0,0);
+  position: absolute;
+  left: 524.734px;
+  top: 667.497px;
+  z-index: 120;
+}
+
+
 .venti, .sconto {
   width: 100%;
 }
@@ -57,13 +74,17 @@ section {
   position: relative;
 }
 
+#icon-container {
+  padding-top: 10%;
+}
+
 .venti-off {
     border-radius: 50%;
     margin-left: 66%;
     position: absolute;
     background-color: red;
     margin-top: -32%;
-    font-size: 30px;
+    font-size: 20px;
     color: white;
 }
 
@@ -86,6 +107,18 @@ button:after {
     content:'\25BA';
     padding-left: 10px;
 }
+
+footer {
+  background-color: rgb(90, 111, 121);
+  padding: 20px;
+}
+
+.social {
+  display: inline-flex;
+  list-style: none;
+  padding-top: 28px
+}
+
 
 
 
