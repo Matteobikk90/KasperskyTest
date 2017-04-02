@@ -120,6 +120,49 @@ footer {
 }
 
 
+/*Media Queries*/
+
+
+@media screen and (max-width: 1024px) {
+    #logo-title {
+      text-align: center;
+    }
+
+    #footer-social {
+      text-align: center;
+    }
+    #center-devices {
+      padding-left: 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header-text {
+      font-size: 1em;
+      margin-top: 4px;
+      color: #007360;
+      float: none;
+      text-align: center;
+  }
+}
+
+@media screen and (max-width: 425px) {
+    .social{
+      margin-left: -10px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .social {
+      margin-left: -30px;
+      padding-left: 4px;
+    }
+    #center-devices {
+      display: inline-flex;
+      list-style: none;
+      margin-left: -26px;
+    }
+}
 
 
 
